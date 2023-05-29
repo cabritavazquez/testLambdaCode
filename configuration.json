@@ -1,22 +1,21 @@
 {
-
     "Enviroment": {
         "DEV": {
             "Buckets": 
             [
                 {
-                    "bucket_name":"",
-                    "path":"",
-                    "artifact_name":""
+                    "bucket_name":"nombreDeMiBucket",
+                    "path":"/lambdas/Vol",
+                    "artifact_name":"lambda_handler.zip"
                 }
             ],
             "Lambdas": 
             [
                 {
-                    "lambda_name":"",
-                    "handler":"",
-                    "Runtime":"",
-                    "MemorySize":""
+                    "lambda_name":"nombreDeMiLambda",
+                    "handler":"handler_lambdaMiLambda.lambda_handler",
+                    "Runtime":"Python 3.8",
+                    "MemorySize":"128"
                 }
             ]
         }
