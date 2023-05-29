@@ -1,0 +1,25 @@
+{
+
+    "Enviroment": {
+        "DEV": {
+            "Buckets": 
+            [
+                {
+                    "bucket_name":"",
+                    "path":"",
+                    "artifact_name":""
+                }
+            ],
+            "Lambdas": 
+            [
+                {
+                    "lambda_name":"",
+                    "handler":"",
+                    "Runtime":"",
+                    "MemorySize":""
+                }
+            ]
+        }
+    }
+
+}
